@@ -1,0 +1,74 @@
+html,
+body {
+  font-size: 15px;
+  line-height: 1.5;
+  box-sizing: border-box;
+  margin: 0;
+  top: 0;
+  left: 0;
+  background-color: #e1e1e1;
+  display: block;
+}
+.nav-link {
+  text-decoration: none;
+  color: rgb(39, 8, 8);
+  font-weight: bolder;
+  font-size: larger;
+}
+.nav-link:hover {
+  color: #e74c3c;
+}
+.navbar-brand {
+  color: #4dbf00;
+  font-size: 30px;
+  font-weight: bolder;
+}
+ul {
+  list-style-type: none;
+}
+.navbar-toggler {
+  background: white;
+  padding: 10px 10px;
+}
+
+.navbar {
+  background-color: #fff;
+}
+.top-nav .active {
+  background-color: rgb(8, 5, 4);
+  color: white;
+}
+.carousel-item img {
+  height: 500px;
+  opacity: 0.6;
+}
+.carousel-item:hover img {
+  opacity: 0.8;
+}
+.posture-title {
+  width: 400px;
+  font-weight: 700db;
+  color: #fff;
+  text-shadow: 2px 2px 2px black;
+  text-transform: uppercase;
+}
+.posture-desc {
+  color: #fff;
+  text-shadow: 2px 2px 2px black;
+  font-weight: bold;
+}
+.posture-button {
+  background-color: #4dbf00;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+}
+.card-title {
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  color: #ffffff;
+}

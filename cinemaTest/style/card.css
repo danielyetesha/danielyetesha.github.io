@@ -1,0 +1,62 @@
+.ccard {
+  display: flex;
+  overflow: hidden;
+  border-radius: 10px;
+  background: #000;
+  box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.7), 5px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+.ccard-thumbnail {
+  position: relative;
+  overflow: hidden;
+}
+
+.ccard-thumbnail img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.ccard-body {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-size: 22px;
+  color: #bdb8b8;
+}
+
+.ccard-title {
+  color: #e8e8e8;
+  font-size: 42px;
+  letter-spacing: 5px;
+}
+
+.ccard-description {
+  text-align: justify;
+}
+
+.clink {
+  display: block;
+  text-decoration: none;
+  color: #f1c40f;
+  margin-top: -25px;
+}
+
+.ctrailer {
+  background: transparent;
+  color: #f1c40f;
+  border: 2px solid #f1c40f;
+  width: 100%;
+  text-decoration: none;
+  font-size: 22px;
+  border-radius: 7px;
+  transition: 0.2s ease;
+}
+
+.ctrailer:hover {
+  background: #f1c40f;
+  color: #000;
+}
